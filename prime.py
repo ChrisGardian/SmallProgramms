@@ -12,13 +12,17 @@ b=100
 i=0
 primes=[2]
 lenght=len(primes)
+divisible=False 
 for x in range(a,b):
     while i<=lenght:
        s=primes[i]
        if (x%s==0):
-           primes.append(x)
-           if x in range(a,b):
-               print(x)
+           divisible=True
+           
+    if divisible==False:
+        primes.append(x)
+        if x in range(a,b):
+            print(x)
     i=i+1
 x=x+1
-               
+                
