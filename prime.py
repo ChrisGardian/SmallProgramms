@@ -4,6 +4,7 @@
 Created on Tue Nov 27 14:58:07 2018
 
 @author: lchris
+This programm is better for bigger intervalls.
 """
 x=3
 a=0
